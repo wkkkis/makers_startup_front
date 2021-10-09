@@ -1,15 +1,19 @@
-import { MAIN_PAGE } from '../utils/const';
-import Main from '../pages/Main';
+import { MAIN_PAGE, PRODUCT_DETAIL } from '../utils/const';
+import { Main, ProductDetail } from '../pages';
 
 export const routes = {
-  main: MAIN_PAGE
+  main: MAIN_PAGE,
+  productDetail: PRODUCT_DETAIL
 }
 
 export const publicRoutes = [
   {
-    // path: routes.main,
-    path: '/',
+    path: routes.main,
     component: Main,
+  },
+  {
+    path: routes.productDetail,
+    component: ProductDetail
   }
 ]
 
