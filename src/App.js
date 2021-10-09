@@ -8,9 +8,9 @@ import AppRouter from './routes/AppRouter';
 
 function App() {
   return (
-    <>
+    <div className="main_page">
       <AppRouter />
-    </>
+    </div>
   );
 }
 
