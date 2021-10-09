@@ -5,8 +5,10 @@ import BasketTotalCard from '../components/BasketTotalCard';
 const Basket = () => {
   return (
     <>
-      <BasketListCart />
-      <BasketTotalCard />
+      <div className="basket-container">
+        <BasketListCart />
+        <BasketTotalCard />
+      </div>
     </>
   );
 };
