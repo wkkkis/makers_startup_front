@@ -1,0 +1,10 @@
+.card_list {
+  background-color: #d5d5d4;
+  padding: 30px;
+  width: 60vw;
+  .card_list__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}

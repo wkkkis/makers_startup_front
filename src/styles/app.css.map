@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "app.scss",
+        "components/_all_components.scss",
+        "pages/_all_pages.scss",
+        "pages/basket.scss",
+        "_vars.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
