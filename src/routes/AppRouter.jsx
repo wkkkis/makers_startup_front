@@ -1,5 +1,6 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import Header from '../components/Header';
 import { privateRoutes, publicRoutes, routes } from './routes';
 
 const AppRouter = () => {
@@ -7,6 +8,8 @@ const AppRouter = () => {
   const auth = false;
 
   return (
+    <BrowserRouter>
+    <Header />
     <Switch>
       {auth && privateRoutes.map(({ path, component }) =>
         (
@@ -20,6 +23,7 @@ const AppRouter = () => {
       )}
       <Redirect to={routes.main} />
     </Switch>
+    </BrowserRouter>
   )
 }
 

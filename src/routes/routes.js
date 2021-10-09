@@ -1,5 +1,5 @@
 import { MAIN_PAGE } from '../utils/const';
-import { Main } from '../pages';
+import Main from '../pages/Main';
 
 export const routes = {
   main: MAIN_PAGE
@@ -7,8 +7,9 @@ export const routes = {
 
 export const publicRoutes = [
   {
-    path: routes.main,
-    component: Main
+    // path: routes.main,
+    path: '/',
+    component: Main,
   }
 ]
 
