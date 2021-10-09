@@ -1,2 +1,4 @@
 export const MAIN_PAGE = '/';
 export const BASKET_PAGE = '/cart';
+export const REGISTER_PAGE = '/register';
+export const LOGIN_PAGE = '/login';
