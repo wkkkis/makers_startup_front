@@ -9,20 +9,20 @@ const AppRouter = () => {
 
   return (
     <BrowserRouter>
-    <Header />
-    <Switch>
-      {auth && privateRoutes.map(({ path, component }) =>
-        (
-          <Route exact path={path} component={component} />
-        )
-      )}
-      {publicRoutes.map(({ path, component }) =>
-        (
-          <Route exact path={path} component={component} />
-        )
-      )}
-      <Redirect to={routes.main} />
-    </Switch>
+      <Header />
+      <Switch>
+        {auth && privateRoutes.map(({ path, component }) =>
+          (
+            <Route exact path={path} component={component} />
+          )
+        )}
+        {publicRoutes.map(({ path, component }) =>
+          (
+            <Route exact path={path} component={component} />
+          )
+        )}
+        <Redirect to={routes.main} />
+      </Switch>
     </BrowserRouter>
   )
 }
