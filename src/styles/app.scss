@@ -1,3 +1,13 @@
 @import "components/all_components";
 @import "pages/all_pages";
 @import "vars";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_page {
+  background: $background;
+  font-family: $font;
+}
