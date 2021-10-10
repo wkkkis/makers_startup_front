@@ -2,6 +2,7 @@ import { instance } from './api';
 
 export const authAPI = {
   login(email, password){
+    debugger
     return instance.post(`/account/login/`, {email, password})
       .then(res => res.data)
   },
