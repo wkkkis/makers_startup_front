@@ -68,9 +68,15 @@
 }
 .navbar__item {
   margin: 5px;
+  cursor: pointer;
 }
 .mobile-menu-icon {
   display: none;
+}
+.header__cart-icon-active {
+  color: #f6a51e;
+  width: 30px;
+  height: 30px;
 }
 @media all and (max-width: 700px){
   .navbar, .navbar-bottom,.header__icons {

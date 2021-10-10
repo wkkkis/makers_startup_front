@@ -1,17 +1,111 @@
 .product_detail_page {
-  width: 80%;
   background: white;
   margin: 0 auto;
   display: flex;
   gap: 10px;
   padding: 3%;
-
-  &__product_image {
-    width: 50%;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
+  justify-content: center;
+}
+.product_detail_image {
+  width: 25vw;
+  margin-right: 15vw;
+  min-width: 200px;
+  margin: 0 auto;
+}
+.product_detail_page__product_description__brand {
+  color: #f6a51e;
+  font-weight: 600;
+  font-size: 26px;
+}
+.product_detail_page__product_description__title {
+  font-size: 20px;
+}
+.options__size {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-width: 200px;
+}
+.product_detail_page__product_description__rating {
+  margin-bottom: 20px;
+}
+.product_detail_page__buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  button {
+    width: 15vw;
+    min-width: 200px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 17px;
+    border: 2px solid #f6a51e;
   }
+}
+.product_detail_page__add-to-favo-btn {
+  background-color: white;
+}
+.product_detail_page__add-to-cart-btn {
+  background-color: #f6a51e;
+  color: white;
+}
+.product-comments {
+  margin-left: 10vw;
+  background-color: white;
+}
+.product-comments__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.product-comments__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media all and (max-width: 547px) {
+  .product_detail_page {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.add-comment-form__input-comment {
+  width: 300px;
+  height: 50px;
+  border: 2px solid grey;
+}
+.add-comment-form__input-comment:focus {
+  border: 2px solid #f6a51e;
+}
+.add-comment-form__input-file {
+  display: none;
+}
+.add-comment-form__input-file-label {
+  width: 300px !important;
+  height: 50px !important;
+  background-color: #f6a51e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-comment-form {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  text-align: center;
+  margin-bottom: 20px;
+  button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+}
+.add-comment-form__btn-send {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
