@@ -3,7 +3,7 @@ import {
   BASKET_PAGE,
   REGISTER_PAGE,
   LOGIN_PAGE,
-  USER_PROFILE
+  USER_PROFILE,
 } from '../utils/const';
 
 import { Main, Basket, Login, Register } from '../pages';
@@ -39,5 +39,5 @@ export const privateRoutes = [
     exact: true,
     path: USER_PROFILE,
     component: UserProfile,
-  }
-]
+  },
+];
