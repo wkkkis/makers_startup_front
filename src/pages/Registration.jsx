@@ -5,6 +5,16 @@ const Registration = () => {
     <div className="form-wrapper">
       <form method="post" className="auth-form">
         <div className="auth-container">
+          <label for="username">
+            <b>Userame</b>
+          </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+
           <label for="email">
             <b>Email</b>
           </label>
@@ -17,6 +27,16 @@ const Registration = () => {
             type="password"
             placeholder="Enter Password"
             name="psw"
+            required
+          />
+
+          <label for="psw-confirm">
+            <b>Password Confirm</b>
+          </label>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="psw-confirm"
             required
           />
           <select>
