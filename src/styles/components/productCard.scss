@@ -19,3 +19,11 @@
   justify-content: space-between;
   height: 50px;
 }
+
+.icon-block {
+  display: flex;
+  .icon-div {
+    margin: 0 40px;
+    font-size: 20px;
+  }
+}
