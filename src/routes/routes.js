@@ -1,5 +1,6 @@
-import { MAIN_PAGE } from '../utils/const';
+import { MAIN_PAGE, USER_PROFILE } from '../utils/const';
 import Main from '../pages/Main';
+import UserProfile from '../components/UserProfile/UserProfile';
 
 export const routes = {
   main: MAIN_PAGE
@@ -14,9 +15,9 @@ export const publicRoutes = [
 ]
 
 export const privateRoutes = [
-  // {
-  //   exact: true,
-  //   path:,
-  //   component:
-  // }
+  {
+    exact: true,
+    path: USER_PROFILE,
+    component: UserProfile,
+  }
 ]

@@ -1,0 +1,31 @@
+.sidebar__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+.sidebar__close-icon {
+    width: 15px;
+    height: 15px;
+}
+.sidebar__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    input {
+        margin-right: 10px;
+    }
+}
+.sidebar {
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+}
+.sidebar__icons {
+    cursor: pointer;
+}
+@media all and (max-width: 1461px){
+   .sidebar {
+    margin-bottom: 10px;
+   } 
+}

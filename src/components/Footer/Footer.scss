@@ -1,0 +1,21 @@
+.footer__logo {
+    width: 120px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid grey;
+    margin-top: 2vw;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer__item {
+    margin: 10px;
+}
+@media all and (max-width: 890px){
+    .footer {
+        flex-direction: column;
+    }
+}

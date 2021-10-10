@@ -1,0 +1,12 @@
+.products-content {
+    margin-top: 3vw;
+    background-color: #F5F5F4;
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (max-width: 1461px) {
+    .products-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
