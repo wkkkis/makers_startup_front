@@ -39,11 +39,29 @@ const Registration = () => {
             name="psw-confirm"
             required
           />
+
           <select>
             <option value="0">Select role:</option>
             <option value="1">client</option>
             <option value="2">seller</option>
           </select>
+          <label for="bio">
+            <b>Bio</b>
+          </label>
+          <input type="text" placeholder="Bio" name="bio" required />
+          <label for="country">
+            <b>Country</b>
+          </label>
+          <input type="text" placeholder="Country" name="country" required />
+          <label for="city">
+            <b>City</b>
+          </label>
+          <input type="text" placeholder="City" name="city" required />
+
+          <label for="avatar">
+            <b>Avatar</b>
+          </label>
+          <input type="file" class="custom-file-input" name="avatar" />
 
           <button type="submit">Register</button>
         </div>
