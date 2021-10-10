@@ -8,6 +8,7 @@ import {
 } from '../utils/const';
 
 import { Main, Basket, Login, Register,ProductDetail } from '../pages';
+import UserProfile from '../components/UserProfile/UserProfile';
 
 export const routes = {
   main: MAIN_PAGE,
