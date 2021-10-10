@@ -20,15 +20,12 @@ const Login = () => {
   }
 
   const loginBtn = () => {
-    // if (state.password !== '' && state.email !== '') {
-      console.log('state',state);
       dispatch(userLogin(state))
-    // }
   }
 
   return (
     <div className="form-wrapper">
-      <div method="post" className="auth-form" /*action={()=>{loginBtn()}} */>
+      <div method="post" className="auth-form" >
         <div className="auth-container">
 
           <label for="email">
@@ -54,7 +51,8 @@ const Login = () => {
           />
 
           <button
-            type="submit"
+            // type="submit"
+            onClick={()=> loginBtn()}
           >
             Login
           </button>
