@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductsContent from '../components/ProductsContent/ProductsContent';
-import SubNavbar from '../components/SubNavbar/SubNavbar';
+import ProductsContent from '../components/ProductsContent';
+import SubNavbar from '../components/SubNavbar';
 
 const Main = () => {
   return (

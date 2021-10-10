@@ -1,8 +1,6 @@
 import React from 'react';
-import ProductList from '../ProductList/ProductList';
-import Sidebar from '../Sidebar/Sidebar';
-
-import './productsContent.css';
+import ProductList from './ProductList';
+import Sidebar from './Sidebar';
 
 const ProductsContent = () => {
     return (

@@ -3,8 +3,6 @@ import React from 'react';
 import { GrClose } from "react-icons/gr";
 import { AiOutlinePlus } from "react-icons/ai";
 
-import './sidebar.css';
-
 const Sidebar = () => {
     const [visibilityCategories, setVisibilityCategories] = React.useState(false);
     const categories = [

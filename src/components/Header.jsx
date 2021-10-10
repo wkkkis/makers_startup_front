@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Logo from '../../assests/logo/logo.png';
+import Logo from '../assests/logo/logo.png';
 
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { BiUserCircle,BiMenuAltLeft } from "react-icons/bi";
 import { BsSearch } from 'react-icons/bs';
-import './header.css';
-import MobileMenu from '../MobileMenu/MobileMenu';
+
+import MobileMenu from './MobileMenu';
 
 const Header = () => {
   const navbar_items = [

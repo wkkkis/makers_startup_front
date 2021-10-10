@@ -1,5 +1,5 @@
 import React from 'react';
-import UserCard from '../UserCard/UserCard';
+import UserCard from './UserCard';
 
 const UserProfile = () => {
     return (

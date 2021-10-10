@@ -2,9 +2,6 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { GrClose } from "react-icons/gr";
 
-import './MobileMenu.css';
-
-
 const MobileMenu = ({setMobileMenu}) => {
     const navbar_items = [
         {

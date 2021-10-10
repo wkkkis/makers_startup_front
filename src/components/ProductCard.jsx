@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './ProductCard.css';
-
 const ProductCard = ({item}) => {
     return (
         <div className="product-card">

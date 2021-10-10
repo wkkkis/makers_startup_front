@@ -8,22 +8,14 @@
   z-index: 10;
   overflow: hidden;
 }
-
 .mobile-menu__content {
   padding: 50px;
   overflow: scroll;
 }
-
 .mobile-menu__item {
   margin-bottom: 20px;
 }
-
 .mobile-menu__close {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
-/*# sourceMappingURL=MobileMenu.css.map */
