@@ -4,17 +4,19 @@ import {
   REGISTER_PAGE,
   LOGIN_PAGE,
   USER_PROFILE,
+  PRODUCT_DETAIL,
 } from '../utils/const';
 
-import { Main, Basket, Login, Register } from '../pages';
+import { Main, Basket, Login, Register, ProductDetail } from '../pages';
+import { UserProfile } from '../components';
 
 export const routes = {
   main: MAIN_PAGE,
   basket: BASKET_PAGE,
   login: LOGIN_PAGE,
   register: REGISTER_PAGE,
+  productDetail: PRODUCT_DETAIL,
 };
-
 export const publicRoutes = [
   {
     path: routes.main,
@@ -32,8 +34,11 @@ export const publicRoutes = [
     path: routes.register,
     component: Register,
   },
+  {
+    path: routes.productDetail,
+    component: ProductDetail,
+  },
 ];
-
 export const privateRoutes = [
   {
     exact: true,
