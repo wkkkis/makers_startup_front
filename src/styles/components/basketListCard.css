@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+.basket-list {
+  padding: 30px;
+  background-color: #fff;
+  width: 60vw;
+  border-radius: 5px;
+}
+
+.basket-list .basket-list__header {
+  color: #adadac;
+  font-size: 14px;
+  text-align: left;
+}
+
+.basket-list .basket-item {
+  font-weight: bold;
+  font-size: 12px;
+  color: #353434;
+}
+
+.basket-list .basket-item .basket-item-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  height: 70px;
+}
+
+.basket-list .basket-item .basket-item-img img {
+  height: 100%;
+  width: auto;
+}
+
+.basket-list .basket-item .basket-item-quantity {
+  width: 40px;
+}
+
+.basket-list .basket-list-total {
+  font-weight: bold;
+  font-size: 12px;
+}
+/*# sourceMappingURL=basketListCard.css.map */

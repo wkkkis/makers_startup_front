@@ -1,0 +1,40 @@
+@import '../vars';
+
+.basket-list {
+  padding: 30px;
+  background-color: #fff;
+  width: 60vw;
+  border-radius: 5px;
+  .basket-list__header {
+    color: $color;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .basket-item {
+    // text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(53, 52, 52);
+    .basket-item-img {
+      display: flex;
+      // align-items: center;
+      // justify-content: center;
+      width: 70px;
+      height: 70px;
+      // margin: 0 auto;
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+    .basket-item-quantity {
+      width: 40px;
+    }
+  }
+  .basket-list-total {
+    // color: $color;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}

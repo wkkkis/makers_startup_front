@@ -1,0 +1,39 @@
+.form-wrapper {
+  padding: 30px;
+  .auth-form {
+    width: 30%;
+    // height: 300px;
+    background-color: #fff;
+    padding: 20px;
+
+    margin: 0 auto;
+    .auth-container {
+      display: flex;
+      flex-direction: column;
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      select {
+        margin: 10px 0;
+        padding: 5px;
+      }
+      button {
+        color: white;
+        background-color: $yellow;
+        padding: 10px 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      .psw {
+        margin-top: 25px;
+      }
+    }
+  }
+}
