@@ -6,7 +6,6 @@ export const setUserUserName = username => ({ type: SET_USER_USERNAME, payload: 
 export const setUserStatus = status => ({ type: SET_USER_STATUS, payload: status })
 
 export const userLogin = ({email, password}) => async dispatch => {
-  debugger
   try {
     let response = await authAPI.login(email, password)
     console.log(response)

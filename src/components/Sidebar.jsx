@@ -1,18 +1,15 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 import { GrClose } from "react-icons/gr";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const Sidebar = () => {
     const [visibilityCategories, setVisibilityCategories] = React.useState(false);
-    const categories = [
-        {
-            label: "All",
-        },
-        {
-            label: "All",
-        }
-    ]
+    
+    const { categories } = useSelector(({categoriesReducer}) => categoriesReducer)
+    // console.log(result)
+
     return (
         <div className='sidebar'>
             <div className="sidebar__title">
@@ -21,7 +18,12 @@ const Sidebar = () => {
             </div>
             {visibilityCategories ? <div>
                 {
-                    categories.map((item) => (<div className="sidebar__checkbox"><input type="checkbox" /> <label>{item.label}</label></div>))
+                    categories.map((item) => (
+                        <div className="sidebar__checkbox">
+                            <input type="checkbox" name={item.slug} />
+                            <label for={item.slug} >{item.title}</label>
+                        </div>
+                    ))
                 }
                 
             </div>: null}

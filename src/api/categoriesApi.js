@@ -2,7 +2,7 @@ import { instance } from './api';
 
 export const categoriesApi = {
   getCategories(page) {
-    return instance.get(`/categories/?${page}`)
+    return instance.get(`/categories${page ? `/?${page}` : '/'}`)
       .then(res => res.data)
   },
   createCategories(slug, title) {

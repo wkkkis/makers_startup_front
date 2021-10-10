@@ -9,6 +9,7 @@ import { BsSearch } from 'react-icons/bs';
 import MobileMenu from './MobileMenu';
 
 const Header = () => {
+  
   const navbar_items = [
     {
       name: 'Home'
@@ -51,7 +52,9 @@ const Header = () => {
         </div>
       </div>
       <div className="navbar">
-        {navbar_items.map((item) => (<div className="navbar__item">{item.name}</div>))}
+        {navbar_items.map((item) => (
+          <div className="navbar__item">{item.name}</div>
+        ))}
       </div>
       {mobileMenu ? <MobileMenu setMobileMenu={setMobileMenu} /> : null}
     </>
