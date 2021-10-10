@@ -1,7 +1,7 @@
 ::-webkit-scrollbar {
     width: 5px;
     height: 20px;
-  }
+}
 ::-webkit-scrollbar-thumb{
     border-width:1px 1px 1px 2px;
     border-radius: 2px;
@@ -11,7 +11,7 @@
 ::-webkit-scrollbar-track{
     border-width:0;
 }
-  
+
 @import './basketListCard.scss';
 @import './basketTotalCard.scss';
 @import './footer';

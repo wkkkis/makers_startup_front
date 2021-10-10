@@ -3,8 +3,8 @@ import { Link, useHistory } from 'react-router-dom';
 
 import Logo from '../assests/logo/logo.png';
 
-import { MdOutlineShoppingBag } from "react-icons/md";
-import { BiUserCircle,BiMenuAltLeft } from "react-icons/bi";
+import { MdOutlineShoppingBag } from 'react-icons/md';
+import { BiUserCircle, BiMenuAltLeft } from 'react-icons/bi';
 import { BsSearch } from 'react-icons/bs';
 
 import MobileMenu from './MobileMenu';
@@ -16,19 +16,19 @@ const Header = () => {
       path: "/"
     },
     {
-      name: "Shop"
+      name: 'Shop'
     },
     {
-      name: "Page"
+      name: 'Page'
     },
     {
-      name: "Page"
+      name: 'Page'
     },
     {
-      name: "Page"
+      name: 'Page'
     },
     {
-      name: "Page"
+      name: 'Page'
     }
   ];
   const [mobileMenu, setMobileMenu] = React.useState(false); 

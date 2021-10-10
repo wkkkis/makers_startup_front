@@ -20,7 +20,7 @@ const AppRouter = () => {
         )}
         {publicRoutes.map(({ path, component }) =>
           (
-            <Route exact path={path} component={component} />
+            <Route exact key={path} path={path} component={component} />
           )
         )}
         <Redirect to={routes.main} />
